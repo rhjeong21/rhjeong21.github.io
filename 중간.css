@@ -73,6 +73,7 @@ footer {
     width: 100%;
     height: 48px;
     background-color: rgb(69, 111, 94);
+    z-index: 1000; /* 특정 요소(레이어)를 다른 요소의 위에 배치할 때 z-index 값이 크면 됨 */
 }
 #copyright {
     position: relative;
