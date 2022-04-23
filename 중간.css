@@ -64,7 +64,7 @@ main {
     height: 700px;
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
-    height: 150px;
+    height: 200px;
 }
 #look-at-me {
     position: relative;
