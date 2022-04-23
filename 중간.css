@@ -57,7 +57,6 @@ main {
     height: 600px;
     left: 300px;
     background-color: rgb(175, 157, 208);
-    border: dashed 2px #000;
 }
 #look-at-me {
     position: relative;
