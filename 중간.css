@@ -52,6 +52,8 @@ main {
     background-color: rgb(152, 204, 184);
 }
 .project {
+    font-family: 'SLEIGothicTTF';
+    font-size: 20px;
     position: relative;
     width: 80%;
     height: 600px;
