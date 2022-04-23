@@ -60,12 +60,12 @@ main {
     left: 303px;
     background-color: rgb(120, 134, 177);
 }
-.box {
+.box1 {
     position: relative;
     width: 300px;
     height: 700px;
 }
-.box > img { /* >는 자식요소(child element)를 의미 */
+.box1 > img { /* >는 자식요소(child element)를 의미 */
     height: 540px;
     margin: 20px;
 }
