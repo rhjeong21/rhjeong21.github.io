@@ -59,7 +59,7 @@ main {
     background-color: rgb(120, 134, 177);
 }
 .project > img { /* >는 자식요소(child element)를 의미 */
-    height: 150px;
+    height: 50px;
 }
 #look-at-me {
     position: relative;
