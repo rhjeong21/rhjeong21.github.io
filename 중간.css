@@ -62,20 +62,10 @@ main {
 }
 #box1 {
     position: relative;
-    width: 300px;
+    width: 600px;
     height: 700px;
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
-    height: 540px;
-    margin: 20px;
-}
-#box2 {
-    position: relative;
-    width: 700px;
-    height: 700px;
-    left: 600px;
-}
-#box2 > img { /* >는 자식요소(child element)를 의미 */
     height: 540px;
     margin: 20px;
 }
