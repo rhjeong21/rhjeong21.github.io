@@ -25,16 +25,18 @@ nav {
     font-size: 25px;
 }
 #artwork {
+        color: gray;
         font-family: 'SLEIGothicTTF';
         font-size: 15px;
         position: relative;
         left: 10px
     }
 #video {
-    font-family: 'SLEIGothicTTF';
-    font-size: 15px;
-    position: relative;
-    left: 10px
+        color: gray;
+        font-family: 'SLEIGothicTTF';
+        font-size: 15px;
+        position: relative;
+        left: 10px
 }
 main {
     position: relative;
