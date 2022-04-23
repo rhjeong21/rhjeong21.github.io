@@ -60,6 +60,7 @@ main {
 }
 #인덱스 {
     height: 50%;
+    width: 50%;
 }
 #look-at-me {
     position: relative;
