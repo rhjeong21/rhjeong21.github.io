@@ -59,6 +59,7 @@ main {
     background-color: rgb(120, 134, 177);
 }
 #인덱스 {
+    position: absolute;
     height: 50%;
     width: 50%;
 }
