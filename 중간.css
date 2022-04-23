@@ -26,6 +26,7 @@ nav {
 }
 #artwork {
         font-family: 'SLEIGothicTTF';
+        font-style: italic;
         font-size: 20px;
         position: relative;
         left: 10px
