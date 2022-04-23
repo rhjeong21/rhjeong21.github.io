@@ -58,12 +58,6 @@ main {
     left: 303px;
     background-color: rgb(120, 134, 177);
 }
-#인덱스 {
-    position: relative;
-    height: 100px;
-    width: 70px;
-    margin: 5px;
-}
 .project > img { /* >는 자식요소(child element)를 의미 */
     height: 150px;
 }
