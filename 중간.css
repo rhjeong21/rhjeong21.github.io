@@ -67,7 +67,6 @@ main {
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
     height: 540px;
-    width: 640px;
     margin: 20px;
 }
 #look-at-me {
