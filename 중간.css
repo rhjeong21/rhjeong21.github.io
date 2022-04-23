@@ -24,6 +24,13 @@ nav {
     font-family: 'SLEIGothicTTF';
     font-size: 25px;
 }
+#design {
+    color: rgb(78, 78, 78);
+    font-family: 'SLEIGothicTTF';
+    font-size: 15px;
+    position: relative;
+    left: 10px
+}
 #artwork {
         color: rgb(78, 78, 78);
         font-family: 'SLEIGothicTTF';
@@ -37,13 +44,6 @@ nav {
         font-size: 15px;
         position: relative;
         left: 10px
-}
-#design {
-    color: rgb(78, 78, 78);
-    font-family: 'SLEIGothicTTF';
-    font-size: 15px;
-    position: relative;
-    left: 10px
 }
 main {
     position: relative;
