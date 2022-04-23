@@ -58,6 +58,9 @@ main {
     left: 303px;
     background-color: rgb(120, 134, 177);
 }
+#인덱스 {
+    height: 50%;
+}
 #look-at-me {
     position: relative;
     width: 100px;
