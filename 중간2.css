@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body, p { margin: 0; }
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* 특정 요소(레이어)를 다른 요소의 위에 배치할 때 z-index 값이 크면 됨 */
+}
+#logo {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+nav {
+    position: relative;
+    left: 80px;
+    top: 20px;  
+}
+.menuitem {
+    font-family: 'LeeSeoyun';
+    font-size: 25px;
+}
+#design {
+    color: rgb(78, 78, 78);
+    font-family: 'LeeSeoyun';
+    font-size: 18px;
+    position: relative;
+    left: 10px
+}
+#이동 {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto; 
+    left: 159px;
+    top: 242px;
+}
+#이동 img {
+    width: 8%;
+}
+#이동2 {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    top: 283px;
+    left: 180px;
+}
+#이동2 img {
+    width: 8%;
+}
+#이동3 {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    top: 321px;
+    left: 172px;
+}
+#이동3 img {
+    width: 8%;
+}
+#이동4 {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    top: 360px;
+    left: 146px;
+}
+#이동4 img {
+    width: 8%;
+}
+#projects {
+    color: rgb(78, 78, 78);
+    font-family: 'LeeSeoyun';
+    font-size: 18px;
+    position: relative;
+    left: 10px
+ }
+#artwork {
+    color: rgb(78, 78, 78);
+    font-family: 'LeeSeoyun';
+    font-size: 18px;
+    position: relative;
+    left: 10px
+}
+#video {
+    color: rgb(78, 78, 78);
+    font-family: 'LeeSeoyun';
+    font-size: 18px;
+    position: relative;
+    left: 10px
+}
+#guest {
+    font-family: 'LeeSeoyun';
+    font-size: 25px;
+}
+main {
+    position: relative;
+    width: 100%;
+    height: 4500px;
+    background-image: url("체크.jpg");
+    background-size: contain; /* contain:이미지 전체가 보이도록, cover: 이미지가 박스에 가득 차게 */
+    background-position-y: center;
+}
+.project {
+    color: rgb(24, 80, 39);
+    font-family: 'LeeSeoyun';
+    font-size: 25px;
+    position: relative;
+    width: 80%;
+    height: 700px;
+    left: 303px;
+    background-color: rgb(208, 183, 255);
+}
+.부가설명 {
+    font-family: 'LeeSeoyun';
+    font-size: 15pt;
+    font: optional;
+    color: rgb(54, 23, 62);
+}
+.project2 {
+    color: rgb(6, 47, 17);
+    font-family: 'LeeSeoyun';
+    font-size: 25px;
+    position: relative;
+    width: 80%;
+    height: 1250px;
+    left: 303px;
+    background-color: rgb(183, 144, 255);
+}
+.project3 {
+    color: rgb(24, 80, 39);
+    font-family: 'LeeSeoyun';
+    font-size: 25px;
+    position: relative;
+    width: 80%;
+    height: 1150px;
+    left: 303px;
+    background-color: rgb(208, 183, 255);
+}
+#제목 {
+    color: rgb(48, 7, 109);
+    font-family: 'LeeSeoyun';
+    font-size: 30px;
+}
+#box1 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+}
+#box1 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box2 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    left: 400px;
+    top: -700px;
+}
+#box2 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box3 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    left: 800px;
+    top: -1400px;
+}
+#box3 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box4 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+}
+#box4 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box5 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    left: 400px;
+    top: -580px;
+}
+#box5 > img { /* >는 자식요소(child element)를 의미 */
+    width: 750px;
+    margin: 15px;
+}
+#box6 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    top: -640px;
+}
+#box6 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box7 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    top: -1340px;
+    left: 400px;
+}
+#box7 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box8 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    top: -2040px;
+    left: 800px;
+}
+#box8 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box9 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+#box9 > img { /* >는 자식요소(child element)를 의미 */
+    height: 550px;
+    margin: 15px;
+}
+#box10 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: 600px;
+    top: -600px;
+}
+#box10 > img { /* >는 자식요소(child element)를 의미 */
+    height: 550px;
+    margin: 15px;
+}
+#box11 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: -580px;
+}
+#box11 > img { /* >는 자식요소(child element)를 의미 */
+    height: 380px;
+    margin: 15px;
+}
+#box12 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: -980px;
+    left: 400px;
+}
+#box12 > img { /* >는 자식요소(child element)를 의미 */
+    height: 380px;
+    margin: 15px;
+}   
+#box13 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: -1380px;
+    left: 800px;
+}
+#box13 > img { /* >는 자식요소(child element)를 의미 */
+    height: 380px;
+    margin: 15px;
+}   
+#box14 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+}
+#box14 > img { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box15 {
+    position: relative;
+    width: 300px;
+    height: 700px;
+    left: 400px;
+    top: -700px;
+}
+#box15 > video { /* >는 자식요소(child element)를 의미 */
+    height: 540px;
+    margin: 15px;
+}
+#box16 {
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    top: -800px;
+}
+#box16 > video { /* >는 자식요소(child element)를 의미 */
+    width: 950px;
+    margin: 15px;
+}
+#위로 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto; /* position이 relative인 경우 가로 가운데 정렬 방법 */
+    top: -500px;
+}
+#위로 img {
+    width: 100%;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    background-color: rgb(69, 111, 94);
+}
+#copyright {
+    position: relative;
+    top: 12px;
+    text-align: center;
+}
