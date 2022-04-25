@@ -4,6 +4,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body, p { margin: 0; }
 header {
     position: fixed;
@@ -21,12 +33,12 @@ nav {
     top: 20px;  
 }
 .menuitem {
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 25px;
 }
 #design {
     color: rgb(78, 78, 78);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansLight';
     font-size: 18px;
     position: relative;
     left: 10px
@@ -77,40 +89,40 @@ nav {
 }
 #projects {
     color: rgb(78, 78, 78);
-    font-family: 'LeeSeoyun';
+    font-family:'GmarketSansLight';
     font-size: 18px;
     position: relative;
     left: 10px
  }
 #artwork {
     color: rgb(78, 78, 78);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansLight';
     font-size: 18px;
     position: relative;
     left: 10px
 }
 #video {
     color: rgb(78, 78, 78);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansLight';
     font-size: 18px;
     position: relative;
     left: 10px
 }
 #guest {
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 25px;
 }
 main {
     position: relative;
     width: 100%;
     height: 4500px;
-    background-image: url("제작배.jpg");
+    background-image: url("제작배.png");
     background-size: contain; /* contain:이미지 전체가 보이도록, cover: 이미지가 박스에 가득 차게 */
     background-position-y: center;
 }
 .project {
     color: rgb(24, 80, 39);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 25px;
     position: relative;
     width: 80%;
@@ -119,14 +131,14 @@ main {
     background-color: rgb(208, 183, 255);
 }
 .부가설명 {
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 15pt;
     font: optional;
     color: rgb(54, 23, 62);
 }
 .project2 {
     color: rgb(6, 47, 17);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 25px;
     position: relative;
     width: 80%;
@@ -136,7 +148,7 @@ main {
 }
 .project3 {
     color: rgb(24, 80, 39);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 25px;
     position: relative;
     width: 80%;
@@ -146,7 +158,7 @@ main {
 }
 #제목 {
     color: rgb(48, 7, 109);
-    font-family: 'LeeSeoyun';
+    font-family: 'GmarketSansBold';
     font-size: 30px;
 }
 #box1 {
