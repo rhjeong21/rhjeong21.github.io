@@ -120,9 +120,9 @@ main {
     font-size: 25px;
     position: relative;
     width: 80%;
-    height: 700px;
+    height:800px;
     left: 303px;
-    background-color: rgb(168, 174, 255);
+    background-color: rgb(255, 255, 255);
 }
 .부가설명 {
     font-family: 'GmarketSansBold';
