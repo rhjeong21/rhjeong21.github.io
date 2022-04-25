@@ -162,7 +162,7 @@ main {
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
     height: 600px;
-    margin: 15px;
+    margin: 10px;
 }
 #box2 {
     position: relative;
