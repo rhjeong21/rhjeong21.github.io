@@ -161,7 +161,7 @@ main {
     height: 300px;
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
-    height: 600px;
+    height: 500px;
     margin: 15px;
 }
 #box2 {
