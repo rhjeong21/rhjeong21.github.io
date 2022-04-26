@@ -154,6 +154,9 @@ main {
     background-color: rgb(213, 214, 255);
     left: 303px;
 }
+#box7 > img { /* >는 자식요소(child element)를 의미 */
+    height: 500px;
+}
 #box1 {
     position: relative;
     width: 60%;
