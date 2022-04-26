@@ -140,6 +140,16 @@ main {
     left: 303px;
     background-color: rgb(213, 214, 255);
 }
+.project3 {
+    color: rgb(255, 255, 255);
+    font-family: 'GmarketSansBold';
+    font-size: 25px;
+    position: relative;
+    width: 80%;
+    height: 1000px;
+    left: 303px;
+    background-color: rgb(213, 214, 255);
+}
 #제목 {
     color: rgb(0, 0, 0);
     font-family: 'GmarketSansBold';
