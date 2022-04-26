@@ -144,6 +144,14 @@ main {
     color: rgb(0, 0, 0);
     font-family: 'GmarketSansBold';
     font-size: 30px;
+    left: 303px;
+    background-color: rgb(213, 214, 255);
+}
+#box7 {
+    position: relative;
+    width: 80%;
+    height: 500px;
+
 }
 #box1 {
     position: relative;
