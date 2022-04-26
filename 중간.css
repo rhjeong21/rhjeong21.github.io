@@ -128,7 +128,7 @@ main {
     font-family: 'GmarketSansBold';
     font-size: 15pt;
     font: optional;
-    color: rgb(54, 23, 62);
+    color: rgb(78, 61, 121);
 }
 .project2 {
     color: rgb(6, 47, 17);
@@ -139,16 +139,6 @@ main {
     height: 1800px;
     left: 303px;
     background-color: rgb(213, 214, 255);
-}
-.project3 {
-    color: rgb(24, 80, 39);
-    font-family: 'GmarketSansBold';
-    font-size: 25px;
-    position: relative;
-    width: 80%;
-    height: 1150px;
-    left: 303px;
-    background-color: rgb(168, 203, 255);
 }
 #제목 {
     color: rgb(48, 7, 109);
