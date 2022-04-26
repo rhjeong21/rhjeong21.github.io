@@ -157,12 +157,18 @@ main {
     left: 303px;
     background-color: rgb(213, 214, 255);
 }
+#제목1 {
+    color: rgb(0, 0, 0);
+    font-family: 'GmarketSansBold';
+    font-size: 30px;
+    left: 303px;
+    background-color: rgb(213, 214, 255);
+}
 #box7 {
     position: relative;
     width: 80%;
     height: 800px;
     background-color: rgb(213, 214, 255);
-    left: 303px;
 }
 #box7 > img { /* >는 자식요소(child element)를 의미 */
     height: 800px;
