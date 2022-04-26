@@ -155,7 +155,7 @@ main {
     left: 303px;
 }
 #box7 > img { /* >는 자식요소(child element)를 의미 */
-    height: 500px;
+    height: 1000px;
 }
 #box1 {
     position: relative;
