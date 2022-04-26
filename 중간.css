@@ -149,13 +149,13 @@ main {
 }
 #box7 {
     position: relative;
-    width: 80%;
-    height: 500px;
+    width: 1280;
+    height: 800px;
     background-color: rgb(213, 214, 255);
     left: 303px;
 }
 #box7 > img { /* >는 자식요소(child element)를 의미 */
-    height: 1000px;
+    height: 800px;
 }
 #box1 {
     position: relative;
