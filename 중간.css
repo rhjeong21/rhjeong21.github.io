@@ -203,7 +203,7 @@ main {
     position: relative;
     width: 950px;
     height: 700px;
-    top: -850px;
+    top: -700px;
 }
 #box6 > video { /* >는 자식요소(child element)를 의미 */
     width: 950px;
