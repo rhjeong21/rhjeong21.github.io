@@ -125,8 +125,8 @@ main {
     background-color: rgb(213, 214, 255);
 }
 .부가설명 {
-    font-family: 'GmarketSansBold';
-    font-size: 10pt;
+    font-family: 'GmarketSansLight';
+    font-size: 12pt;
     font: optional;
     color: rgb(78, 61, 121);
 }
