@@ -126,12 +126,12 @@ main {
 }
 .부가설명 {
     font-family: 'GmarketSansBold';
-    font-size: 15pt;
+    font-size: 10pt;
     font: optional;
     color: rgb(78, 61, 121);
 }
 .project2 {
-    color: rgb(6, 47, 17);
+    color: rgb(255, 255, 255);
     font-family: 'GmarketSansBold';
     font-size: 25px;
     position: relative;
