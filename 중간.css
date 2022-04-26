@@ -167,15 +167,15 @@ main {
 #box7 {
     position: relative;
     width: 300px;
-    height: 600px;
+    height: 800px;
     background-color: rgb(213, 214, 255);
 }
 #box7 > img { /* >는 자식요소(child element)를 의미 */
-    height: 600px;
+    height: 800px;
 }
 #box1 {
     position: relative;
-    width: 60%;
+    width: 300px;
     height: 1200px;
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
