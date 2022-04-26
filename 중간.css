@@ -323,7 +323,7 @@ main {
     position: relative;
     width: 100px;
     height: 100px;
-    margin: 0px auto; /* position이 relative인 경우 가로 가운데 정렬 방법 */
+    margin: 80px auto; /* position이 relative인 경우 가로 가운데 정렬 방법 */
     top: -900px;
 }
 #위로 img {
