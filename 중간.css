@@ -147,7 +147,7 @@ main {
 }
 #box1 {
     position: relative;
-    width: 300px;
+    width: 80%px;
     height: 1200px;
 }
 #box1 > img { /* >는 자식요소(child element)를 의미 */
