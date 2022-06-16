@@ -1,0 +1,89 @@
+/* 기본 태그 스타일 */
+body, p {
+    margin: 0;  padding: 0;   
+    font-family: 'Noto Sans KR', sans-serif; }
+a, a:link, a:hover, a:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+header {
+    position: relative;
+    margin: 0 auto;  /* position이 relative인 요소를 가운데 배치하는 방법 */
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+}
+main{
+    width: 100%;
+    height: 605px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    background-color :#000000
+}
+
+/* header 영역 스타일 */
+#mainmenu {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: -176px;
+    left: 100px; transform: translateX(-50%);
+    text-align: center;
+    /* background-color: #fff; */
+}
+#mainmenu > ul {
+    display: inline-block;
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+#mainmenu > ul a:link,
+#mainmenu > ul a:visited
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+#mainmenu > ul a:hover
+{
+    text-decoration: underline;
+    color: #ffc800;
+}
+#mainmenu > ul li {
+    float: left;
+    padding: 0 24px;
+    /* background-color: #fff;
+    border: solid 1px #000; */
+}
+#mainmenu > ul li:hover {
+    /* background-color: #ffffff; */
+}
+
+/* main 영역 스타일 */
+
+/* footer 영역 스타일 */
+#copyright {
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    font-size: 1.0em;
+    bottom: 16px;
+    color:#000000 ;
+}
+
+@media screen and (max-width: 960px) {
+    .item-container {
+        width: 50%;
+        padding-top: 50%;
+    } 
+}
+@media screen and (max-width: 520px) {
+    .item-container {
+        width: 100%;
+        padding-top: 100%;
+    } 
+}
