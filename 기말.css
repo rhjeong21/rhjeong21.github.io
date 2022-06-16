@@ -13,13 +13,13 @@ header {
     height: 100px;
     width: 100%;
     color: #000000;
-    background-color:#ffffff ;
+    background-color:#d9d7ff ;
 }
 main{
     width: 100%;
     height: 605px;
     margin: 0 auto;
-    background-image: url("웹디배경.png");
+    background-image: url("웹디배경2.png");
 }
 footer {
     position: absolute;
