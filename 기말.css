@@ -105,6 +105,13 @@ footer {
         text-align: center;
         /* background-color: #fff; */    
     }
+    #project1 {
+        position: relative;
+        width: 400px;
+        height: 100px;
+        left: 10%;
+        top: 250px;
+    }
 }
 @media screen and (max-width: 360px) {
     #mainmenu {
@@ -115,5 +122,12 @@ footer {
         bottom: -50px;
         text-align: center;
         /* background-color: #fff; */    
+    }
+    #project1 {
+        position: relative;
+        width: 400px;
+        height: 100px;
+        left: 10%;
+        top: 250px;
     }
 }
