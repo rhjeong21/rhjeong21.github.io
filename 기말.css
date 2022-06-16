@@ -75,6 +75,16 @@ footer {
 
 /* main 영역 스타일 */
 
+#project1 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    left: 24%;
+    top: 50px;
+}
+#project1 img {
+    width: 100%;
+}
 /* footer 영역 스타일 */
 #copyright {
     position: absolute;
