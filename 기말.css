@@ -104,6 +104,16 @@ footer {
 #project3 img {
     width: 100%;
 }
+#project4 {
+    position: relative;
+    width: 250px;
+    height: 500px;
+    left: 42%;
+    top: 50px;
+}
+#project4 video {
+    width: 100%;
+}
 #mainmenu2 {
     position: absolute;
     width: 500px;
@@ -243,6 +253,13 @@ footer {
         left: 27.5%;
         top: 200px;
     }
+    #project4 {
+        position: relative;
+        width: 210px;
+        height: 100px;
+        left: 27.5%;
+        top: 200px;
+    }
     #mainmenu2 {
         position: absolute;
         width: 400px;
@@ -254,9 +271,9 @@ footer {
     }
     #mainmenu3 {
         position: absolute;
-        width: 400px;
+        width: 550px;
         height: 50px;
-        left: 50%; transform: translateX(-50%);
+        left: 30%;
         bottom: -10px;
         text-align: center;
         /* background-color: #fff; */    
