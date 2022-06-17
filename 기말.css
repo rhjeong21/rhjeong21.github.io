@@ -84,6 +84,16 @@ footer {
 #project1 img {
     width: 100%;
 }
+#project2 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    left: 24%;
+    top: 50px;
+}
+#project2 img {
+    width: 100%;
+}
 .swiper {
     position: relative;
     width: 800px;
