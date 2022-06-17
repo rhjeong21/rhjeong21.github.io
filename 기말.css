@@ -114,6 +114,16 @@ footer {
 #project4 video {
     width: 100%;
 }
+#project5 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    left: 24%;
+    top: 50px;
+}
+#project5 video {
+    width: 100%;
+}
 #mainmenu2 {
     position: absolute;
     width: 500px;
@@ -151,7 +161,7 @@ footer {
 
 #mainmenu3 {
     position: absolute;
-    width: 600px;
+    width: 700px;
     height: 50px;
     bottom: 250px;
     left: 350px; transform: translateX(-50%);
