@@ -4,20 +4,9 @@
     <meta charset="utf-8">  <!-- 한글이 정상적으로 보이도록 설정 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- 모바일에서 콘텐츠 크기 최적화 -->
     <link rel="stylesheet" type="text/css" href="기말.css"> <!-- CSS 파일 불러오기 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <title>you_jeong7 GRUN</title>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <style>
-        .swiper {
-            position: relative;
-            width: 800px;
-            height: 800px;
-            left: 24%;
-            top: 50px;
-        }
-        .swiper-slide > img {
-            width: 100%;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -33,47 +22,29 @@
         </nav>
     </header>
     <main>
-            <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-            <img src="work.png" />
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="work.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="work.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="work.png" />
+              </div>
         </div>
-        <div class="swiper-slide">
-            <img src="about.png" />
-        </div>
-        <div class="swiper-slide">
-            <img src="about2.png" />
-        </div>
-        ...
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-    
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    </div>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            }
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+       <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
         });
-    </script>
+      </script>
     </main>
     <footer>
         <div id="copyright">Copyright&copy;youhjeong02</div>
