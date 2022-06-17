@@ -1,0 +1,56 @@
+<!DOCTYPE html>  <!-- HTML5 문서임을 알려줌 -->
+<html>
+<head>
+    <meta charset="utf-8">  <!-- 한글이 정상적으로 보이도록 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- 모바일에서 콘텐츠 크기 최적화 -->
+    <link rel="stylesheet" type="text/css" href="기말.css"> <!-- CSS 파일 불러오기 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>you_jeong7 GRUN</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="로고.png"></a>
+        </div>
+        <nav id="mainmenu">
+            <ul>
+                <li><a href="about.html"><img src="폴더.png">ABOUT</a></li>
+                <li><a href="work홈.html"><img src="폴더.png">WORK</a></li>
+                <li><a href="video.html"><img src="폴더.png">VIDEO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="work6.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="work7.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="work8.png" />
+              </div>
+        </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+       <script>
+      
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+           // Optional parameters
+           direction: 'horizontal',
+            loop: true,
+        });
+      </script>
+    </main>
+    <footer>
+        <div id="copyright">Copyright&copy;youhjeong02</div>
+    </footer>
+</body>
