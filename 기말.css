@@ -74,6 +74,16 @@ footer {
 }
 
 /* main 영역 스타일 */
+#project6 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    left: 24%;
+    top: 50px;
+}
+#project6 img {
+    width: 100%;
+}
 #project1 {
     position: relative;
     width: 800px;
@@ -275,6 +285,13 @@ footer {
         width: 400px;
         height: 100px;
         left: 12%;
+        top: 275px;
+    }
+    #project6 {
+        position: relative;
+        width: 400px;
+        height: 100px;
+        left: 13.5%;
         top: 275px;
     }
     #mainmenu2 {
