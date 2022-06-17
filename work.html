@@ -31,18 +31,22 @@
                 <img src="work2.png" />
               </div>
               <div class="swiper-slide">
-                <img src="work.png" />
+                <img src="work3.png" />
               </div>
         </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
           </div>
        <script>
+      
         var swiper = new Swiper(".mySwiper", {
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
+           // Optional parameters
+           direction: 'horizontal',
+            loop: true,
         });
       </script>
     </main>
