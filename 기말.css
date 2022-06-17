@@ -94,6 +94,40 @@ footer {
 #project2 img {
     width: 100%;
 }
+#mainmenu2 {
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    bottom: 250px;
+    left: 250px; transform: translateX(-50%);
+    text-align: center;
+    /* background-color: #fff; */
+}
+#mainmenu2 > ul {
+    display: inline-block;
+    margin: 0; padding: 0;
+    list-style-type: none;
+}
+#mainmenu2 > ul a:link,
+#mainmenu2 > ul a:visited
+{
+    text-decoration: none;
+    color:#000000
+}
+#mainmenu2 > ul a:hover
+{
+    text-decoration: underline;
+    color: #0051ff;
+}
+#mainmenu2 > ul li {
+    float: left;
+    padding: 0 24px;
+    /* background-color: #fff;
+    border: solid 1px #000; */
+}
+#mainmenu2 > ul li:hover {
+    /* background-color: #ffffff; */
+}
 .swiper {
     position: relative;
     width: 800px;
