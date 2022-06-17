@@ -270,6 +270,13 @@ footer {
         left: 31%;
         top: 200px;
     }
+    #project5 {
+        position: relative;
+        width: 400px;
+        height: 100px;
+        left: 12%;
+        top: 275px;
+    }
     #mainmenu2 {
         position: absolute;
         width: 400px;
@@ -281,10 +288,10 @@ footer {
     }
     #mainmenu3 {
         position: absolute;
-        width: 550px;
+        width: 700px;
         height: 50px;
-        left: 30%;
-        bottom: -10px;
+        left: 60%;
+        bottom: 50px;
         text-align: center;
         /* background-color: #fff; */    
     }
